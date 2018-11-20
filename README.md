@@ -1,2 +1,0 @@
-# gbJava1
-homework
