@@ -8,18 +8,18 @@ public class MainClass {
         Dog dog2 = new Dog("Second dog");
 
         cat1.run(150);
-        cat2.run(250);
+        cat2.run(100);
         dog1.run(350);
-        dog2.run(550);
+        dog2.run(270);
 
         cat1.jump(1.5);
-        cat2.jump(2.8);
+        cat2.jump(1.0);
         dog1.jump(0.2);
-        dog2.jump(1.0);
+        dog2.jump(0.5);
 
         cat1.swim();
         cat2.swim();
         dog1.swim(5);
-        dog2.swim(20);
+        dog2.swim(8);
     }
 }
