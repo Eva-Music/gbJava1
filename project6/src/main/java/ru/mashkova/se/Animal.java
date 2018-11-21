@@ -16,11 +16,10 @@ public class Animal {
     }
 
     public boolean truth(int number, int max){
-        return number < Math.random()*max && number > 0 ? true : false;
+        return number < Math.random()*max && number > 0;
     }
     public boolean truth(double number, double max){
-        return number < Math.random()*max && number > 0 ? true : false;
+
+        return number < Math.random()*max && number > 0;
     }
-
-
 }
